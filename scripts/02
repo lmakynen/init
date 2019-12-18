@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Who do you want to delete? :)"
+read username
+
+check=`sudo cat /etc/passwd | grep "$username.*.100.*.home" | awk -F: '{print $1}'`
+if [ "$check" != "$NULL" ] ; then
+	sudo userdel -fr $username
+else
+	echo "User doesn't exist :("
+fi

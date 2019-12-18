@@ -1,0 +1,1 @@
+When the computer asks for your login, you write your login name. Then it asks for your password which you write. :) Or you can type ssh user@127.0.0.1 -p 2222 (I have to add the -p 2222 because I'm using a live version and NAT. 127.0.0.1 is this computer (the loopback Internet protocol)).

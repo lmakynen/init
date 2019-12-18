@@ -1,0 +1,2 @@
+ssh user@<your ip>
+#In the VM you type hostname -I and then use that ip address to sign into the ssh service.

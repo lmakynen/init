@@ -1,0 +1,2 @@
+c1r1p9.hive.fi
+#Use ifconfig en0 and get your IP next to inet. Then write nslookup (that ip) and you'll see the name. 
